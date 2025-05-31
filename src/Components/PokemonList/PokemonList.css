@@ -1,0 +1,15 @@
+.wrapper{
+    margin: 2rem 240px;
+}
+.heading {
+    margin : 0 340px;
+}
+p{
+    text-align : center;
+}
+.yellapokemons{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items: center;
+}
