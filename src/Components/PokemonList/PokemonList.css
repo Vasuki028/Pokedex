@@ -10,6 +10,7 @@
     align-items: center;
     flex-wrap : wrap;
     margin : 0 auto;
+    text-decoration: none;
 }
 .controls button{
     margin : 0 auto;

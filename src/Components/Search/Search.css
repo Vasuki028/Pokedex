@@ -1,9 +1,10 @@
 .search-wrapper{
-    width : 500px;
+    display : flex;
     
 }
 #searchbar{
     width : 500px;
     letter-spacing : 1px;
     height : 20px;
+    margin : 0 auto;
 }

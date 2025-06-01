@@ -18,7 +18,7 @@ function PokemonList() {
 
     useEffect(() => {
         async function downloadpokemon() {
-            setIsloading(true);
+            setIsloading(false);
             const response = await axios.get(pokedexUrl);
             const pokemonResults = response.data.results; // we are getting the awway of pokemons from result
             // iterating over the array of pokemons and using thier url  , to create an array of
@@ -56,7 +56,7 @@ function PokemonList() {
             <div className="yellapokemons"> 
            
             {(isLoading) ? 'loading...': 
-            pokemonList.map((p) => <Pokemon name={p.name}image ={p.image} key={p.id}/>)
+            pokemonList.map((p) => <Pokemon name={p.name}image ={p.image} key={p.id} id={p.id}/>)
             }
             </div>
             <div className="controls">

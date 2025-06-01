@@ -15,6 +15,7 @@
     letter-spacing: 0.3rem;
     font-size: larger;
     margin-bottom: 0.5rem;
+    text-decoration: none;
 }
 .Pokemon:hover{
     background-color: beige;
